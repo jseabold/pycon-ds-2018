@@ -1,0 +1,13 @@
+with pd.option_context('max.rows', 15):
+    print(dta.query("risk == 'Risk 1 (High)'")
+          .groupby(('address', 'dba_name'))
+          .size()
+          .rename('n_visits')
+          .reset_index()
+          .query("n_visits >= 4")
+          .merge(dta)
+          .groupby(('results', 'address', 'dba_name'))
+          .size()
+          .pipe(lambda df: df['Fail'].div(df['Pass']))
+          .dropna()
+          .sort_values(ascending=False))
