@@ -61,6 +61,8 @@ Make sure that all of the packages were installed correctly.
 python imports-test.py
 ```
 
+Go ahead and unzip the data in the `data/` directory.
+
 ## Outline
 
 ### Introduction
