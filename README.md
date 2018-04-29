@@ -1,6 +1,6 @@
 # Introduction to Python for Data Science
 
-This is the ODSC West '17 workshop Introduction to Python for Data Science.
+This is the ODSC East '18 workshop Introduction to Python for Data Science.
 
 ## Outcomes
 
@@ -19,12 +19,12 @@ If you would like to code along during the workshop, follow these steps.
 Clone this repository. To do so at the command line, type
 
 ```bash
-git clone git@github.com:jseabold/odsc-west-python-2017
+git clone git@github.com:jseabold/odsc-east-python-2018
 ```
 
 Otherwise, you can download the code directly from GitHub.
 
-The day before the conference, you will want to check for any code changes. From the directory that containers the code, run
+The day before the conference, you will want to check for any code changes. From the directory that contains the code, run
 
 ```
 git pull
@@ -33,9 +33,20 @@ git pull
 Before you arrive, also install all of the pre-requisite packages. **You may not be able to rely on conference Wi-Fi to do this**.
 
 
-```python
+```bash
 conda env create -f environment.yaml
-source activate odsc-west-2017
+```
+
+If you are on macOS or linux, run in the terminal
+
+```bash
+source activate odsc-east-2018
+```
+
+If you are on windows, run at the command prompt
+
+```bash
+activate odsc-east-2018
 ```
 
 Make sure you can run the Jupyter Notebooks
