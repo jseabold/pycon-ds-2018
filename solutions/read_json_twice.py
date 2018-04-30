@@ -1,7 +1,7 @@
 json_file = open('data/health_inspection_chi_sample.json')
 
 for line in json_file:
-        pass
+    pass
 
 print(json_file.tell())
 
