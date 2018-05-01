@@ -35,4 +35,4 @@ dta = pd.read_csv(
 
 
 quantiles = [0, .05, .25, .50, .75, .95, 1.00]
-(dta.violations.str.count("\|") + 1).quantile()
+(dta.violations.str.count("\|") + 1).quantile(quantiles)
