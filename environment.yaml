@@ -1,4 +1,4 @@
-name: odsc-east-2018
+name: pycon-ds-2018
 channels:
 - conda-forge
 - defaults

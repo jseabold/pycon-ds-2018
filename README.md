@@ -14,15 +14,19 @@ Some knowledge of statistics and data science will be helpful.
 
 ## Requirements
 
+### Download the Tutorial
+
 If you would like to code along during the workshop, follow these steps.
 
-Clone this repository. To do so at the command line, type
+*If you are familiar with git*, clone this repository. To do so at the command line, type
 
 ```bash
 git clone git@github.com:jseabold/pycon-ds-2018
 ```
 
-Otherwise, you can download the code directly from GitHub.
+*If you are not familiar with git*, you can download the code directly from GitHub.
+
+![download zip button](img/download-zip.png)
 
 The day before the conference, you will want to check for any code changes. From the directory that contains the code, run
 
@@ -30,14 +34,29 @@ The day before the conference, you will want to check for any code changes. From
 git pull
 ```
 
-Before you arrive, also install all of the pre-requisite packages. **You may not be able to rely on conference Wi-Fi to do this**.
+Or, download the zip file again.
 
+### Install the Packages
+
+Before you arrive, install all of the pre-requisite packages. **You may not be able to rely on conference Wi-Fi to do this**.
+
+*If you don't have conda or anaconda installed*, you may want to download the Python Anaconda Distribution. Go to [anaconda.org](https://anaconda.org) and click on Download Anaconda.
+
+![download anaconda](img/download-anaconda.org)
+
+Select the Python 3.X version for your OS (it should be automatically chosen). Download and install anaconda.
+
+![python 3](img/download-py36.png)
+
+Now that you have conda or anaconda, type the following from *the directory with this code* at the terminal or command prompt.
 
 ```bash
 conda env create -f environment.yaml
 ```
 
-If you are on macOS or linux, run in the terminal
+### Activate the Environment with the Packages
+
+Now you need to switch to the environment we just created with the packages installed. If you are on macOS or linux, run in the terminal
 
 ```bash
 source activate pycon-ds-2018
@@ -55,7 +74,7 @@ Make sure you can run the Jupyter Notebooks
 jupyter notebook
 ```
 
-Make sure that all of the packages were installed correctly.
+You can make sure that all of the packages were installed correctly, by running the following at a new or different terminal or command prompt (i.e., not the one you just typed `jupyter notebook` in) within the same directory with the code.
 
 ```bash
 python imports-test.py
