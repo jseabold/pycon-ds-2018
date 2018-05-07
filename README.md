@@ -80,7 +80,10 @@ You can make sure that all of the packages were installed correctly, by running 
 python imports-test.py
 ```
 
-Go ahead and unzip the data in the `data/` directory.
+### Data
+
+Go ahead and unzip the data in the `data/` directory. Depending on how you unzip the archive *this may create a subdirectory, if it does then you need to move all of the files into the parent directory*. All of the data files should be in the `data/` directory *not* `data/data`.
+
 
 ## Outline
 
