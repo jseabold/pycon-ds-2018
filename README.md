@@ -42,7 +42,7 @@ Before you arrive, install all of the pre-requisite packages. **You may not be a
 
 *If you don't have conda or anaconda installed*, you may want to download the Python Anaconda Distribution. Go to [anaconda.org](https://anaconda.org) and click on Download Anaconda.
 
-![download anaconda](img/download-anaconda.org)
+![download anaconda](img/download-anaconda.png)
 
 Select the Python 3.X version for your OS (it should be automatically chosen). Download and install anaconda.
 
